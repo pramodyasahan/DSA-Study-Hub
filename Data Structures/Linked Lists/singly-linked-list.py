@@ -3,6 +3,7 @@ class Node:
         self.data = data
         self.next = None
 
+
 class SinglyLinkedList:
     def __init__(self):
         self.head = None
@@ -48,6 +49,7 @@ class SinglyLinkedList:
             print(current.data, end=' -> ')
             current = current.next
         print('None')
+
 
 # Example usage
 sll = SinglyLinkedList()

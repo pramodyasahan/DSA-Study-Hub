@@ -4,6 +4,7 @@ class DoublyNode:
         self.next = None
         self.prev = None
 
+
 class DoublyLinkedList:
     def __init__(self):
         self.head = None
@@ -51,6 +52,7 @@ class DoublyLinkedList:
             print(current.data, end=' <-> ')
             current = current.next
         print('None')
+
 
 # Example usage
 dll = DoublyLinkedList()
